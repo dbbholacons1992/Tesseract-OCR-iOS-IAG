@@ -604,7 +604,7 @@ namespace tesseract {
 
     tesseract::PageIterator *iterator = _tesseract->AnalyseLayout();
     if (iterator == NULL) {
-        NSLog(@"Can't analyse layout. Make sure 'osd.traineddata' available in 'tessdata'.");
+        //NSLog(@"Can't analyse layout. Make sure 'osd.traineddata' available in 'tessdata'.");
         return;
     }
 
